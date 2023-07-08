@@ -21,3 +21,7 @@ class TestFrenchToEnglish(unittest.TestCase):
 class TestFrenchToEnglish(unittest.TestCase):
     def test2(sefl):
         sefl.assertNotEqual(french_to_english("Dieu"), "Me")
+
+
+if __name__ == "__main__":
+    unittest.main()
